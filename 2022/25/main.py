@@ -53,4 +53,4 @@ def decimalToSnafu(decimal_num: int):
 
 input_as_decimal = [SnafuToDecimal(line) for line in input_lines]
 summed = sum(input_as_decimal)
-print(f"The snafue number we are after is: {decimalToSnafu(summed)}")
+print(f"The snafu number we are after is: {decimalToSnafu(summed)}")
